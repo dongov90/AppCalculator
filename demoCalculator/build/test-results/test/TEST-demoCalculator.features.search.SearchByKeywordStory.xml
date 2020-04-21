@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="demoCalculator.features.search.SearchByKeywordStory" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-21T04:22:42" hostname="DESKTOP-D6R908H" time="80.284">
+  <properties/>
+  <testcase name="try_mul_23_and_16" classname="demoCalculator.features.search.SearchByKeywordStory" time="25.824"/>
+  <testcase name="try_add_5_and_9" classname="demoCalculator.features.search.SearchByKeywordStory" time="15.407"/>
+  <testcase name="try_div_74_and_8" classname="demoCalculator.features.search.SearchByKeywordStory" time="18.445"/>
+  <testcase name="try_mis_89_and_13" classname="demoCalculator.features.search.SearchByKeywordStory" time="19.869"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Apr 21, 2020 11:22:49 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+Apr 21, 2020 11:23:13 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+Apr 21, 2020 11:23:29 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+Apr 21, 2020 11:23:47 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
