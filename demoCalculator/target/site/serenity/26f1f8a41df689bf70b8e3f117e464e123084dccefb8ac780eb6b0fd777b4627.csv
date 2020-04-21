@@ -1,2 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Search by keyword story","Try mul 23 and 16","SUCCESS","2020-04-18T16:46:44.569+07:00[Asia/Bangkok]","0.0","23.36"
+"Search by keyword story","Try mul 23 and 16","SUCCESS","2020-04-21T12:12:27.377+07:00[Asia/Bangkok]","0.0","25.59"
+"Search by keyword story","Try add 5 and 9","SUCCESS","2020-04-21T12:12:53.487+07:00[Asia/Bangkok]","0.0","17.67"
+"Search by keyword story","Try div 74 and 8","SUCCESS","2020-04-21T12:13:11.277+07:00[Asia/Bangkok]","0.0","20.34"
+"Search by keyword story","Try mis 89 and 13","SUCCESS","2020-04-21T12:13:31.723+07:00[Asia/Bangkok]","0.0","20.61"

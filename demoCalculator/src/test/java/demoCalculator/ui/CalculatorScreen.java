@@ -22,6 +22,8 @@ public class CalculatorScreen {
     public static final Target NUMBER_4 = Target.the("#4 number").located(By.id("com.google.android.calculator:id/digit_4"));
     public static final Target DIVISOR_OPERATOR = Target.the("divisor operator").located(By.id("com.google.android.calculator:id/op_div"));
 //   89 -13
-    public static final Target MINUS_OPERATOR = Target.the("double operator").located(By.id("com.google.android.calculator:id/op_sub"));
+    public static final Target MINUS_OPERATOR = Target.the("minus operator").located(By.id("com.google.android.calculator:id/op_sub"));
+// Reusult
+public static final Target RESULT = Target.the("result operator").located(By.id("com.google.android.calculator:id/result_preview"));
 }
 

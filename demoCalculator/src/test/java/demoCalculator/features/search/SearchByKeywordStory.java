@@ -1,5 +1,6 @@
 package demoCalculator.features.search;
 
+import demoCalculator.questions.CalculatorResults;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
@@ -16,6 +17,8 @@ import demoCalculator.tasks.divisorNumber;
 import demoCalculator.tasks.minusNumber;
 import demoCalculator.tasks.multiplierNumber;
 
+
+import java.util.function.Predicate;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.*;
 import static net.serenitybdd.screenplay.EventualConsequence.eventually;
@@ -41,11 +44,17 @@ public class SearchByKeywordStory {
         anna.attemptsTo(
                 divisorNumber.calculator()
         );
+        anna.should(
+                seeThat(CalculatorResults.DivResult(), Predicate.isEqual("9.25"))
+        );
     }
     @Test
     public void try_add_5_and_9() {
         anna.attemptsTo(
                 AddNumber.calculator()
+        );
+        anna.should(
+                seeThat(CalculatorResults.AddResult(),Predicate.isEqual("14"))
         );
     }
     @Test
@@ -53,11 +62,17 @@ public class SearchByKeywordStory {
         anna.attemptsTo(
                 multiplierNumber.calculator()
         );
+        anna.should(
+                seeThat(CalculatorResults.MulResult(),Predicate.isEqual("368"))
+        );
     }
     @Test
     public void try_mis_89_and_13() {
         anna.attemptsTo(
                 minusNumber.calculator()
+        );
+        anna.should(
+                seeThat(CalculatorResults.MinResult(),Predicate.isEqual("76"))
         );
     }
     @After
